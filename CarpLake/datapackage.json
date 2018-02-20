@@ -42,7 +42,8 @@
       },
       {
         "path": "schemaorg-ld.json",
-        "format": "json"
+        "format": "json",
+        "mediatype": "application/ld+json"
       }
     ]
   }
