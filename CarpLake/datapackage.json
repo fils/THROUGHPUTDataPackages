@@ -39,6 +39,9 @@
           ]
         },
         "name": "data"
+      },
+      {
+        "path": "schemaorg-ld.json"
       }
     ]
   }
