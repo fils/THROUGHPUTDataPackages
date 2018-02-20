@@ -39,6 +39,11 @@
           ]
         },
         "name": "data"
+      },
+      {
+        "path": "schemaorg-ld.json",
+        "format": "json",
+        "mediatype": "application/ld+json"
       }
     ]
   }
