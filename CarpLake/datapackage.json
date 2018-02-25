@@ -13,7 +13,7 @@
     "sources": [
       {
         "name": "Original source??",
-        "web": "Pehaps a link to the original paper this data was in (if that is indeed the provance of the data)",
+        "web": "Perhaps a link to the original paper this data was in (if that is indeed the provence of the data)",
         "title": "Title of source here...."
       }
     ],
@@ -39,6 +39,11 @@
           ]
         },
         "name": "data"
+      },
+      {
+        "path": "data/schemaorg-ld.json",
+        "format": "application/ld+json",
+        "name": "schemaorg"
       }
     ]
   }
