@@ -28,12 +28,12 @@ func SchemaFromPackage() string {
 	}
 
 	// The following reads the tabular data OK
-	resource := pkg.GetResource("data") // could I also read the "schemaorg" JSON file in and use it?
-	contents, err := resource.ReadAll()
+	resource := pkg.GetResource("schemaorg") // could I also read the "schemaorg" JSON file in and use it?
+	contents, err := resource.RawRead()
 	if err != nil {
 		log.Printf("Error getting schema.org entry: %v\n", err)
 		// return nil, err
 	}
 
-	return contents[0][0] // just grab the first "thing" and return it..  we are just testing pipelines...
+	return string(contents) // just grab the first "thing" and return it..  we are just testing pipelines...
 }

@@ -41,7 +41,7 @@
         "name": "data"
       },
       {
-        "path": "data/schemaorg-ld.json",
+        "path": "schemaorg-ld.json",
         "format": "application/ld+json",
         "name": "schemaorg"
       }
