@@ -5,12 +5,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"oceanleadership.org/frictionless/THROUGHPUTDataPackages/dataPkgLD/landingpage"
+	"oceanleadership.org/frictionless/THROUGHPUTDataPackages/dpex/lphandler"
 )
-
-// TODO:
-// How will schemaFromPackage deal with data in an S3 system?
-// How do I materialize the datapackage?
 
 // MyServer struct for mux router
 type MyServer struct {
@@ -18,19 +14,17 @@ type MyServer struct {
 }
 
 func main() {
-	log.Println("Make a landing page for a data package")
-
 	searchroute := mux.NewRouter()
-	searchroute.HandleFunc("/lptest", landingpage.PresentPackage) // the REAL handler for this URL
-	http.Handle("/lptest", searchroute)
+	searchroute.HandleFunc("/pkg/{id}", lphandler.PresentPackage) // the REAL handler for this URL
+	http.Handle("/pkg/", searchroute)
 
-	ar := mux.NewRouter()
-	ar.PathPrefix("/assets/").Handler(http.StripPrefix("/assets/", http.FileServer(http.Dir("./assets"))))
-	http.Handle("/assets/", &MyServer{ar})
+	htmlRouter := mux.NewRouter()
+	htmlRouter.PathPrefix("/").Handler(http.StripPrefix("/", http.FileServer(http.Dir("./assets"))))
+	http.Handle("/", &MyServer{htmlRouter})
 
-	log.Printf("About to listen on 9900. Go to http://127.0.0.1:9900/")
+	log.Printf("About to listen on 9990. Go to http://127.0.0.1:9990/")
 
-	err := http.ListenAndServe(":9900", nil)
+	err := http.ListenAndServe(":9990", nil)
 	// http 2.0 http.ListenAndServeTLS(":443", "server.crt", "server.key", nil)
 	if err != nil {
 		log.Fatal(err)
