@@ -29,11 +29,11 @@
               "format": "any"
             },
             {
-              "type": "text",
+              "type": "string",
               "name": "Notes"
             },
             {
-              "type": "text",
+              "type": "string",
               "name": "Core Segements to Examine"
             }
           ]
