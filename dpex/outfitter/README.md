@@ -7,7 +7,7 @@ anyway, so I will use a simple proxy for that.
 Will want some URL patterns
 
 /id/ID   (GET on package ID)
-/doc/ID  (The 303 GET redirection for the ID)
+/doc/ID  (The 303 GET redirection for the ID)  Don't bother with the 303 in the demo
 
 /data/ID  (the download URL for getting the data)
 should get to this too on access to /id with certain accept headers

@@ -17,7 +17,7 @@ func SchemaFromPackage() string {
 		return "Error getting package"
 	}
 
-	resource := pkg.GetResource("schemaorg") // could I also read the "schemaorg" JSON file in and use it?
+	resource := pkg.GetResource("example") // could I also read the "schemaorg" JSON file in and use it?
 	rc, err := resource.RawRead()
 	defer rc.Close()
 	contents, _ := ioutil.ReadAll(rc)
