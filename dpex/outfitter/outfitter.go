@@ -11,7 +11,7 @@ import (
 // If path has the ".zip" extension, it will be saved in local filesystem and decompressed before loading.
 // TODO: Explore load zip via URL call into S3??
 func SchemaFromPackage() string {
-	pkg, err := datapackage.Load("data/datapackage.json")
+	pkg, err := datapackage.Load("../datapackages/simple-geojson/datapackage.json")
 	if err != nil {
 		log.Printf("Error getting package: %v\n", err)
 		return "Error getting package"
