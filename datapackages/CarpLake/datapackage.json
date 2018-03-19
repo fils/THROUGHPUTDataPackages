@@ -21,23 +21,6 @@
       {
         "path": "data/carpLakeCoreStratigraphy.csv",
         "format": "csv",
-        "schema": {
-          "fields": [
-            {
-              "type": "number",
-              "name": "Depth below lake surface",
-              "format": "any"
-            },
-            {
-              "type": "text",
-              "name": "Notes"
-            },
-            {
-              "type": "text",
-              "name": "Core Segements to Examine"
-            }
-          ]
-        },
         "name": "data"
       },
       {
