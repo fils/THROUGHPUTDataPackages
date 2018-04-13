@@ -12,4 +12,4 @@ can be defined by a table schema
 #### Example link
 
 Loads in OKFN Data Package Viewer
-[Carp Link](http://data.okfn.org/tools/view?url=https%3A%2F%2Fraw.githubusercontent.com%2Ffils%2FTHROUGHPUTDataPackages%2Fmaster%2FCarpLake%2F#resource-data)
+[Carp Link](http://data.okfn.org/tools/view?url=https://raw.githubusercontent.com/fils/THROUGHPUTDataPackages/master/datapackages/CarpLake/datapackage.json)

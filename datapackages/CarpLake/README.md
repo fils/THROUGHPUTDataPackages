@@ -2,13 +2,10 @@ Carp Lake Data
 
 
 ## Data
-
-* Data from XYZ
-* Also held in Core repo SDF
-* Some data present in Neotoma
+This is an example dataset being used to demonstrate some elements of the approach to using schema.org in frictionless data packages.
 
 ## People
-
+NA
 
 ### Notes from the Source
 
