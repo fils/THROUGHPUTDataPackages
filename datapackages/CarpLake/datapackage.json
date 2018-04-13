@@ -21,12 +21,13 @@
       {
         "path": "data/carpLakeCoreStratigraphy.csv",
         "format": "csv",
+        "mediatype": "text/csv",
         "name": "data"
       },
       {
         "path": "schemaorg-ld.json",
-        "format": "application/ld+json",
-        "name": "schemaorg"
+        "format": "json",
+        "mediatype": "application/ld+json"
       }
     ]
   }
