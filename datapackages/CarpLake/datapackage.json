@@ -25,7 +25,7 @@
         "name": "data"
       },
       {
-        "path": "schemaorg-ld.json",
+        "path": "metadata/schemaorg.json",
         "format": "json",
         "mediatype": "application/ld+json"
       }
