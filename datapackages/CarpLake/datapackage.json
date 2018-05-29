@@ -1,6 +1,6 @@
 {
-    "name": "carp-lake",
-    "title": "Carp Lake Title",
+    "name": "carplake",
+    "title": "Carp Lake",
     "description": "Tephra and Lithology from Carp Lake",
     "licenses": [
       {
@@ -12,16 +12,34 @@
     ],
     "sources": [
       {
-        "name": "Original source??",
+        "name": "Original source",
         "web": "Perhaps a link to the original paper this data was in (if that is indeed the provence of the data)",
         "title": "Title of source here...."
       }
     ],
     "resources": [
       {
-        "path": "data/carpLakeCoreStratigraphy.csv",
+        "path": "data/Carp_Lake_11-9-07.xls",
         "format": "csv",
-        "mediatype": "text/csv",
+        "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "data"
+      },
+      {
+        "path": "data/Carp Lake core stratigraphy.xlsx",
+        "format": "csv",
+        "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
+        "name": "data"
+      },
+      {
+        "path": "data/Carp Lake log sheets sm.pdf",
+        "format": "csv",
+        "mediatype": "application/pdf",
+        "name": "data"
+      },
+      {
+        "path": "data/Whitlock et al 2000 Env history, tephrostrat Carp Lake.pdf",
+        "format": "csv",
+        "mediatype": "application/pdf",
         "name": "data"
       },
       {

@@ -1,10 +1,10 @@
-  {
+{
  "@context": {
   "@vocab": "http://schema.org/"
  },
  "@id": "http://opencoredata.org/id/dataset/SOME-PID-FOR-THIS-DATASET",
  "@type": "Dataset",
- "description": "Carp Lake TEST DATA",
+ "description": "Carp Lake",
  "distribution": {
   "@type": "DataDownload",
   "contentUrl": "http://opencoredata.org/api/v1/documents/download/SOME-PID-FOR-THIS-DATASET.zip"
