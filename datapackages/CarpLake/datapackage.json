@@ -1,50 +1,29 @@
 {
-    "name": "carplake",
-    "title": "Carp Lake",
-    "description": "Tephra and Lithology from Carp Lake",
-    "licenses": [
-      {
-        "id": "odc-pddl",
-        "name": "public_domain_dedication_and_license",
-        "version": "1.0",
-        "url": "http://opendatacommons.org/licenses/pddl/1.0/"
-      }
-    ],
-    "sources": [
-      {
-        "name": "Original source",
-        "web": "Perhaps a link to the original paper this data was in (if that is indeed the provence of the data)",
-        "title": "Title of source here...."
-      }
-    ],
+    "profile" : "data-package",
     "resources": [
       {
-        "path": "data/Carp_Lake_11-9-07.xls",
-        "format": "csv",
+        "path": "data/CarpLake11907.xls",
         "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "name": "data"
+        "name": "carplake11907.xls"
       },
       {
-        "path": "data/Carp Lake core stratigraphy.xlsx",
-        "format": "csv",
+        "path": "data/CarpLakeCoreStratigraphy.xlsx",
         "mediatype": "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
-        "name": "data"
+        "name": "carplakecorestratigraphy.xlsx"
       },
       {
-        "path": "data/Carp Lake log sheets sm.pdf",
-        "format": "csv",
+        "path": "data/CarpLakeLogSheetssm.pdf",
         "mediatype": "application/pdf",
-        "name": "data"
+        "name": "carplakelogsheetssm.pdf"
       },
       {
-        "path": "data/Whitlock et al 2000 Env history, tephrostrat Carp Lake.pdf",
-        "format": "csv",
+        "path": "data/Whitlocketal2000EnvhistorytephrostratCarpLake.pdf",
         "mediatype": "application/pdf",
-        "name": "data"
+        "name": "whitlocketal2000envhistorytephrostratcarplake.pdf"
       },
       {
         "path": "metadata/schemaorg.json",
-        "format": "json",
+        "name": "schema.org",
         "mediatype": "application/ld+json"
       }
     ]
